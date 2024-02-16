@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     <!-- Favicon contiene el logo sin nombre del tamaño de un ícono. 
+        Asegúrense de incluir este icon en la carpeta assets y pónganle el mismo nomree o actualicen el href
+        Les dejo un sitio donde convertir su logo en un ico https://imagen.online-convert.com/es/convertir-a-ico -->
+        <link rel="icon" type="image/x-icon" href="img/logo.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        
+    <title>Fatiga</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+    <div class="container">
+        <header id="encabezado">
+            <a href="index.html"><i class="fa-solid fa-user-secret fa-2xl" style="color: #cbb26a;"></i></a>
+                    <!--<img src="img/bugbusters_logo_fondoBlanco.png" alt="..." />-->
+            
+                
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <nav class="navbar">    
+                <ul class="menu">
+                    <li><a class="navli" href="#page-top">Inicio</a></li>
+                    <li><a class="navli" href="#acerca">Acerca de mi</a></li>
+                    <li><a class="navli" href="#proyectos">Proyectos</a></li>
+                    <li><a class="navli" href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="seccion-principal">
+            <section class="seccion-1">
+                <div class="acerca-de">
+                    <h2 class="acerca-titulo">Acerca de mí</h2>
+
+                    <p class="parrafo-1">¡Bienvenido a mi página! Aquí, aprenderás más sobre mí.</p>
+                    <p class="parrafo-2">Me llamo Jordan, nací en Mercedes, Soriano, Uruguay. Me gusta el helado y salir a pasear en días de sol. Me encantaría aprender a programar para poder ayudar a las personas a mostrar lo que hacen.</p>
+                </div>
+                <div class="acerca-imagen"><img src="img/jordan.jpg" class="imagen-yo" alt="imagen personal"></div>
+            </section>
+            <section class="seccion-2">
+                <img src="img/carrusel-imagen.jpg" class="imagen-carrusel" alt="imagen carrusel">
+            </section>
+
+            <!--PROYECTOS-->
+            <h2 class="titulo-proyectos">Proyectos</h2>
+
+            <section class="seccion-proyectos">
+
+                
+                
+                <div class="proyecto">
+                    <img src="img/3.jpg" alt="Proyecto 1">
+                    <h3>Proyecto 1</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error placeat, vel commodi pariatur est deleniti molestias magni architecto soluta quasi inventore tenetur officiis consectetur laborum libero odio fugiat? Similique, libero?</p>
+                    <!--AGREGAR LINK SABER MAS-->
+                    <a href="enlace_proyecto_1.html">Saber más</a>
+                </div>
+            
+                <div class="proyecto">
+                    <img src="img/2.jpg" alt="Proyecto 2">
+                    <h3>Proyecto 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis et perspiciatis ipsam repudiandae error consectetur quibusdam. Fugit tempore optio nostrum sint laborum repellendus nobis explicabo rerum accusamus itaque, incidunt ea.</p>
+                    <!--AGREGAR LINK SABER MAS-->
+                    <a href="enlace_proyecto_1.html">Saber más</a>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/3.jpg" alt="Proyecto 1">
+                    <h3>Proyecto 1</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error placeat, vel commodi pariatur est deleniti molestias magni architecto soluta quasi inventore tenetur officiis consectetur laborum libero odio fugiat? Similique, libero?</p>
+                    <!--AGREGAR LINK SABER MAS-->
+                    <a href="enlace_proyecto_1.html">Saber más</a>
+                </div>
+                
+
+            </section>
+
+            <!--SECCION FORMULARIO-->
+            <section class="seccion-formulario">
+
+                <h2>Contacto</h2>
+        <p><em>¡Esperamos tu consulta!</em></p>
+  
+        <form action="" method="get" class="formulario" id="form">
+            <div class="form-row">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" name="nombre" type="text" />
+            </div>
+
+            <div class="form-row">
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="pepe@gmail.com"
+                />
+            </div>
+
+            <div class="form-row">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+            </div>
+
+            <div class="form-row">
+                <button>Enviar</button>
+            </div>
+        </form>
+
+            </section>
+            
+        </main>
+
+        <footer>
+            <div>
+                <h2>Redes Sociales</h2>
+                <ul>
+                    <li><a>jordan.villoldo@gmail.com</a></li>
+                    <li><a href="https://www.linkedin.com/in/jordanvilloldo/" target=»_blank>LinkedIn</a></li>
+                </ul>
+            </div>
+            
+        </footer>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
