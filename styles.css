@@ -63,6 +63,12 @@ header nav ul li a{
 
 
 /*MAIN*/
+.greeting{
+    display: flex;
+    padding-left: 30px;
+    color: #b59a61;
+}
+
 .seccion-1{
     display: flex;
     justify-content: center;
