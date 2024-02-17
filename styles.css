@@ -362,11 +362,13 @@ footer div ul a{
 
     .seccion-proyectos {
         flex-direction: column; /* Cambiar la dirección del flexbox para que los proyectos se apilen verticalmente */
-        padding: 1em; /* Reducir el padding */
+        /*padding: 1em;  Reducir el padding */
+        
     }
 
     .proyecto {
         margin-inline-end: 0; /* Eliminar el margen al final del proyecto */
+
         width: 100%; /* Hacer que los proyectos ocupen todo el ancho disponible */
     }
 
